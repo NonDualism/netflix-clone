@@ -30,11 +30,6 @@ export default function Row({ title, movies }: Props) {
         left: howMuchToScroll,
       });
 
-      console.log('clientWidth', clientWidth);
-      console.log('scrollLeft', scrollLeft);
-      console.log('hmts', howMuchToScroll);
-      console.log('scrollwidth', scrollWidth);
-
       if (howMuchToScroll > 0) {
         setShowLeftIcon(true);
       } else if (howMuchToScroll <= 0) {

@@ -9,7 +9,6 @@ export default function Header() {
     const handleScroll = () => {
       if (window.scrollY > 0) {
         setIsScrolled(true);
-        console.log('hi');
       } else {
         setIsScrolled(false);
       }
